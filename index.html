@@ -4,84 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stunning Landing Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Custom styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .hero {
-            background-image: url('https://source.unsplash.com/1600x900/?nature');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: #fff;
-        }
-        .hero-content {
-            max-width: 800px;
-            padding: 20px;
-        }
-        .hero-content h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        .hero-content p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
+        /* CSS стили */
+        /* Ваши стили здесь */
     </style>
 </head>
 <body>
-    <div class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Our Stunning Landing Page</h1>
-            <p>This is a beautiful landing page created with HTML and CSS. It's designed to impress and engage visitors.</p>
-            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
-        </div>
-    </div>
+    <!-- Хедер -->
+    <header style="background-image: url('fon.jpg');">
+        <img src="logo.jpg" alt="Logo" class="logo">
+        <h1>Индивидуальные уроки программирования Python и подготовка к ОГЭ/ЕГЭ с Еленой Шумиловой (ShoomTech)</h1>
+    </header>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet orci nec mauris iaculis condimentum.</p>
-            </div>
-            <div class="col-md-6">
-                <h2>Our Services</h2>
-                <ul>
-                    <li>Service 1</li>
-                    <li>Service 2</li>
-                    <li>Service 3</li>
-                </ul>
+    <!-- О преподавателе -->
+    <section class="about-teacher">
+        <div class="container">
+            <img src="lena.jpg" alt="Elena Shumilova" class="teacher-photo">
+            <div class="teacher-info">
+                <h2>Здравствуйте!</h2>
+                <p>Меня зовут Елена Шумилова, и я здесь, чтобы открыть для вас мир программирования и подготовить к успешной сдаче ОГЭ и ЕГЭ по информатике. С моей помощью программирование станет не только понятным, но и увлекательным!</p>
+                <!-- Дополнительная информация о преподавателе -->
             </div>
         </div>
-    </div>
+    </section>
 
-    <footer class="mt-5 py-3 text-center bg-dark text-white">
+    <!-- Предложение и услуги -->
+    <section class="services">
+        <div class="container">
+            <h2>Что я предлагаю:</h2>
+            <ul>
+                <li>Индивидуальные занятия по Python для учеников 8-11 классов.</li>
+                <li>Подготовка к ОГЭ и ЕГЭ с учетом вашего уровня знаний и целей.</li>
+                <!-- Дополнительные услуги -->
+            </ul>
+            <!-- Цены на занятия -->
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Преимущества:</h2>
+            <ul>
+                <li>Личностно-ориентированный подход, учитывающий ваши предпочтения и способности.</li>
+                <li>Креативные и проектные методы обучения, развитие критического мышления.</li>
+                <!-- Другие преимущества -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Вызов к действию -->
+    <section class="call-to-action">
+        <div class="container">
+            <a href="#" class="btn btn-primary">Записаться на урок</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
         <div class="container">
             <p>&copy; 2024 Stunning Landing Page. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
