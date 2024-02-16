@@ -10,6 +10,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url('fon.jpg');
+            background-size: cover;
+            background-position: center;
         }
         .header {
             background-color: #fff;
@@ -26,7 +29,7 @@
             text-align: right;
         }
         .header-text h1 {
-            font-size: 28px;
+            font-size: 24px;
             margin: 0;
             color: #333;
         }
@@ -35,20 +38,39 @@
             margin-top: 5px;
             color: #666;
         }
-        .teacher-section {
-            background-image: url('lena.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 100px 0;
-            text-align: center;
+        .teacher-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 20px;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .teacher-info {
+            padding: 20px;
+            margin-left: 250px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        .teacher-info h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .teacher-info p {
+            font-size: 16px;
+            color: #666;
+        }
+        .footer {
+            background-color: #333;
             color: #fff;
-        }
-        .teacher-section h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        .teacher-section p {
-            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -64,13 +86,32 @@
         </div>
     </header>
 
-    <!-- Секция с преподавателем -->
-    <section class="teacher-section">
-        <h2>Елена Шумилова</h2>
-        <img src="lena.jpg" alt="Elena Shumilova" style="width: 200px; height: 200px; border-radius: 50%;">
+    <!-- Фотография преподавателя и текст -->
+    <img src="lena.jpg" alt="Elena Shumilova" class="teacher-photo">
+    <div class="teacher-info">
+        <h2>🌟 Здравствуйте!</h2>
         <p>Меня зовут Елена Шумилова, и я здесь, чтобы открыть для вас мир программирования и подготовить к успешной сдаче ОГЭ и ЕГЭ по информатике. С моей помощью программирование станет не только понятным, но и увлекательным!</p>
-    </section>
+        <h2>✨ Что я предлагаю:</h2>
+        <ul>
+            <li>Индивидуальные занятия по Python для учеников 8-11 классов.</li>
+            <li>Подготовка к ОГЭ и ЕГЭ с учетом вашего уровня знаний и целей.</li>
+            <li>Личностно-ориентированный подход, учитывающий ваши предпочтения и способности.</li>
+            <li>Креативные и проектные методы обучения, развитие критического мышления.</li>
+        </ul>
+        <h2>🏆 Мои достижения:</h2>
+        <p>Финалист конкурса "Учитель года 2002" в номинации "Учитель информатики".<br>Высокая ИКТ-компетентность и базовые знания в и…</p>
+        <h2>Подготовка к ОГЭ, ЕГЭ или программирование на Python:</h2>
+        <ul>
+            <li>1 - занятие 1500 руб. - 60 мин</li>
+            <li>1 занятие 45 мин - 1250р</li>
+            <li>пакет 8 занятий (60 мин) - 8000 тр</li>
+            <li>пакет 8 занятий (60 мин) - 10000 тр</li>
+        </ul>
+    </div>
 
-    <!-- Другие секции и контент -->
+    <!-- Футер -->
+    <footer class="footer">
+        <p>&copy; 2024 Stunning Landing Page. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
