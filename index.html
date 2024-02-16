@@ -3,50 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Преподаватель Python</title>
+    <title>Stunning Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Стили для примера. Можете изменить их по своему усмотрению. */
+        /* Custom styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-        .container {
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?nature');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero-content {
             max-width: 800px;
-            margin: 0 auto;
             padding: 20px;
         }
-        h1, h2 {
-            color: #333;
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
         }
-        p {
-            color: #666;
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
         }
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
+        .btn-primary {
             background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Добро пожаловать на мой сайт!</h1>
-        <p>Привет, я ваш личный преподаватель Python. Готовы начать путешествие в мир программирования?</p>
-        <h2>Чем я могу помочь:</h2>
-        <ul>
-            <li>Обучение основам Python</li>
-            <li>Подготовка к собеседованиям</li>
-            <li>Разработка персонализированных учебных планов</li>
-            <li>И многое другое!</li>
-        </ul>
-        <p>Свяжитесь со мной сегодня, чтобы начать ваше учебное приключение.</p>
-        <a href="mailto:youremail@example.com" class="cta-button">Связаться со мной</a>
-        <p>Телефон: xxx-xxx-xxx</p>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Stunning Landing Page</h1>
+            <p>This is a beautiful landing page created with HTML and CSS. It's designed to impress and engage visitors.</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
     </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet orci nec mauris iaculis condimentum.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Service 1</li>
+                    <li>Service 2</li>
+                    <li>Service 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-3 text-center bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Stunning Landing Page. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
