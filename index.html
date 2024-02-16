@@ -6,65 +6,64 @@
     <title>Stunning Landing Page</title>
     <style>
         /* CSS стили */
-        /* Ваши стили здесь */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            padding: 10px 20px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            height: 100%;
+            margin-right: 20px;
+        }
+        .logo img {
+            height: 100%;
+        }
+        .header-text {
+            color: #fff;
+            font-size: 24px;
+        }
+        .teacher-section {
+            background-image: url('lena.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .teacher-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .teacher-section p {
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <!-- Хедер -->
-    <header style="background-image: url('fon.jpg');">
-        <img src="logo.jpg" alt="Logo" class="logo">
-        <h1>Индивидуальные уроки программирования Python и подготовка к ОГЭ/ЕГЭ с Еленой Шумиловой (ShoomTech)</h1>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <div class="header-text">
+            <h1>Индивидуальные уроки программирования Python и подготовка к ОГЭ/ЕГЭ с Еленой Шумиловой (ShoomTech)</h1>
+        </div>
     </header>
 
-    <!-- О преподавателе -->
-    <section class="about-teacher">
-        <div class="container">
-            <img src="lena.jpg" alt="Elena Shumilova" class="teacher-photo">
-            <div class="teacher-info">
-                <h2>Здравствуйте!</h2>
-                <p>Меня зовут Елена Шумилова, и я здесь, чтобы открыть для вас мир программирования и подготовить к успешной сдаче ОГЭ и ЕГЭ по информатике. С моей помощью программирование станет не только понятным, но и увлекательным!</p>
-                <!-- Дополнительная информация о преподавателе -->
-            </div>
-        </div>
+    <!-- Секция с преподавателем -->
+    <section class="teacher-section">
+        <h2>Елена Шумилова</h2>
+        <img src="lena.jpg" alt="Elena Shumilova" style="width: 200px; height: 200px; border-radius: 50%;">
+        <p>Меня зовут Елена Шумилова, и я здесь, чтобы открыть для вас мир программирования и подготовить к успешной сдаче ОГЭ и ЕГЭ по информатике. С моей помощью программирование станет не только понятным, но и увлекательным!</p>
     </section>
 
-    <!-- Предложение и услуги -->
-    <section class="services">
-        <div class="container">
-            <h2>Что я предлагаю:</h2>
-            <ul>
-                <li>Индивидуальные занятия по Python для учеников 8-11 классов.</li>
-                <li>Подготовка к ОГЭ и ЕГЭ с учетом вашего уровня знаний и целей.</li>
-                <!-- Дополнительные услуги -->
-            </ul>
-            <!-- Цены на занятия -->
-        </div>
-    </section>
-
-    <!-- Преимущества -->
-    <section class="advantages">
-        <div class="container">
-            <h2>Преимущества:</h2>
-            <ul>
-                <li>Личностно-ориентированный подход, учитывающий ваши предпочтения и способности.</li>
-                <li>Креативные и проектные методы обучения, развитие критического мышления.</li>
-                <!-- Другие преимущества -->
-            </ul>
-        </div>
-    </section>
-
-    <!-- Вызов к действию -->
-    <section class="call-to-action">
-        <div class="container">
-            <a href="#" class="btn btn-primary">Записаться на урок</a>
-        </div>
-    </section>
-
-    <!-- Футер -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Stunning Landing Page. All Rights Reserved.</p>
-        </div>
-    </footer>
+    <!-- Другие секции и контент -->
 </body>
 </html>
